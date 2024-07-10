@@ -25,3 +25,39 @@ STOP
 
 
 3
+START
+DEFINE 3 VARIABLES a AND b
+READ 2 VARIABLES a AND b FROM USER 
+ASSIGN a=a+b
+       b=a-b
+       a=a-b
+TO SEE SWAPPED VALUE print a
+                     print b
+STOP
+
+
+4
+START
+DEFINE 1 VARIABLE a
+READ a FROM USER
+CONDITION if a//2=0
+RESULT if yes 
+       print even 
+       if no
+       print odd
+STOP
+
+
+5
+START
+DEFINE A LIMIT l
+READ l FROM USER
+ASSIGN n=1
+CONDITION IF n=l
+RESULT if no
+       print n
+       n=n+1
+       if yes
+STOP
+
+
