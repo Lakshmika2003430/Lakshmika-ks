@@ -1,0 +1,27 @@
+ALGORITHMS
+----------
+
+
+1
+START
+DEFINE 2 VARIABLES p AND  q
+READ 2 VARIABLES p AND q FROM USER
+FIND SUM OF p AND q AND ASSIGHT TO ANOTHER VARIABLE sum
+TO SEE THE SUM print sum
+STOP
+
+
+2
+START
+DEFINE 3 VARIABLES p , q AND r
+READ 2 VARIABLES p AND q FROM USER 
+ASSIGN r=p
+       p=q
+       q=r
+TO SEE SWAPPED VALUE print p
+                     print q
+STOP
+
+
+
+3
